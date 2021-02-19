@@ -1,11 +1,22 @@
 body{
-  margin: 0px;
+  margin: 0;
 }
 
-.wrapper{
-  margin: 0px;
+.nav{
+  background-color: pink;
 }
 
-#navbar {
-  position: sticky;
+.grid{
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr 7fr;
+}
+
+.side {
+  background-color: #f1f1f1;
+}
+
+.content{
+  background-color: lightblue;
+  height: 2000px;
 }
