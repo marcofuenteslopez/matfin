@@ -1,7 +1,6 @@
 function interes_simple(valor = "monto",capital = null, interes = null , periodos = 1,monto = null){
   switch (valor) {
     case "monto": // m = c*(1+i*n)
-    console.log("monto");
       return capital*(1+interes*periodos);
       break;
     case "capital": // c = m/(1+in)
